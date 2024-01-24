@@ -1,0 +1,119 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+header h1,
+section h2 {
+    font-family: 'Lemon', serif;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    background-image: url(imagens/Gamer\ Background.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+header {
+    padding: 32px 0;
+    background-color: #050505;
+    color: azure;
+    font-size: 25px;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+}
+
+.container,
+section h2 {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+section article img {
+    height: 420px;
+    margin-right: 20px;
+}
+
+section article {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 52px;
+}
+
+section h2 {
+    margin-bottom: 36px;
+    font-size: 30px;
+    color: #fff;
+}
+
+section {
+    padding: 36px;
+}
+
+section p {
+    margin-bottom: 8px;
+    color: #fff;
+    font-size: 18px;
+}
+
+section h3 {
+    padding: 16px;
+    color: #fff;
+}
+
+section .news {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header nav li a {
+    background-color: #2196f3;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    padding: 15px 10px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+#contact .container {
+    display: block;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
